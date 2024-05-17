@@ -33,10 +33,10 @@ class Student {
     }
     // method to display student status
     showStatus() {
-        console.log(chalk.magenta(`ID: ${this.id}`));
-        console.log(chalk.magenta(`Name: ${this.name}`));
-        console.log(chalk.magenta(`Enrolled courses: ${this.courses.join(", ")}`));
-        console.log(chalk.magenta(`Balance: ${this.balance}`));
+        console.log(chalk.yellow(`ID: ${this.id}`));
+        console.log(chalk.yellow(`Name: ${this.name}`));
+        console.log(chalk.yellow(`Enrolled courses: ${this.courses.join(", ")}`));
+        console.log(chalk.yellow(`Balance: ${this.balance}`));
     }
 }
 // defining a new class named studentManager to manage students
